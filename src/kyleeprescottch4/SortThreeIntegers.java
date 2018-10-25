@@ -1,6 +1,10 @@
 package kyleeprescottch4;
 import java.util.Scanner;
 public class SortThreeIntegers {
+	/* 
+	 * kylee prescott
+	 * 10/18
+	 */
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -19,10 +23,17 @@ public class SortThreeIntegers {
 		if (num1>num2) {
 			System.out.println(+num2);
 		}
+		else if  (num2>num3) {
+		System.out.println(+num3);
 		
-		else if (num3>num2) {
-			System.out.println(+num3);
 		}
+		else if ( num3>num1) {
+			System.out.println(num1);
+			
+		}
+		
+			
+		
 	}
 	
 
