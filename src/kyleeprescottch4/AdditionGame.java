@@ -14,8 +14,8 @@ public class AdditionGame {
 		int x=1;	
 		while(x==1) {
 		Scanner input = new Scanner(System.in); {
-			int num1 =(int)(System.currentTimeMillis() % 10 );
-			int num2 = (int)(System.currentTimeMillis()/7 %10 );
+			int num1 =(int)(System.currentTimeMillis() % 100 );
+			int num2 = (int)(System.currentTimeMillis()/7 %100 );
 			int answer;
 			int total;
 			

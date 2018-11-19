@@ -8,17 +8,17 @@ public class LotteryGame {
  */
 	public static void main(String[] args) {
 	//genertate number 
-	int lottery = (int)(Math.random()*100); 
+	String lottery = ""+(int)(Math.random()*10)+(int)(Math.random()*10); 
 	
 	// prompt the user
 	Scanner input = new Scanner(System.in);
-     System.out.println("Enetr your lottery pick(two digits): ");
-   int guess = input.nextInt();
+     System.out.println("Eneter your lottery pick(two digits): ");
+   String guess = input.nextLine();
 
    
    
    // get lottery number
-   int lotteryDigit1 = lottery / 10;
+   char lotteryDigit1 = lottery.charAt(0);
    int lotteryDigit2 = lottery % 10 ;
    
    int guessDigit1 = guess /10;
